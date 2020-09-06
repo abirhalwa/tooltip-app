@@ -1,0 +1,7 @@
+<div [class]="'tooltip ' + (isTop ? 'bs-tooltip-top' : 'bs-tooltip-bottom')" [style.opacity]="opacityValue"
+    role="tooltip" [attr.aria-hidden]="!showTooltip">
+    <div class="arrow"></div>
+    <div class="tooltip-inner">
+        <ng-content></ng-content>
+    </div>
+</div>

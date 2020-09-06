@@ -1,0 +1,23 @@
+section {
+    margin: 40px 0;
+    .buttons {
+        display: flex;
+        button {
+            background-color: #e1e1e1;
+            color: #51b885;
+            margin-right: 20px;
+            &:hover,
+            &:focus {
+                background-color: darken(#e1e1e1, 10%);
+                color: darken(#51b885, 10%);
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        display: inline-block;
+    }
+    h2 {
+        margin: 20px 0;
+    }
+}

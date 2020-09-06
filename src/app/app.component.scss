@@ -1,0 +1,21 @@
+header {
+    min-height: 100vh;
+    nav {
+        min-height: 10vh;
+        .nav-link:hover,
+        .nav-link:focus {
+            color: #82c31f;
+        }
+    }
+
+    .headerBottom {
+        background: #905da7;
+        color: #fff;
+        div {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

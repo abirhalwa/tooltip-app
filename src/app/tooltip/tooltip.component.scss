@@ -1,0 +1,13 @@
+.tooltip {
+  transition: all 0.3s 0.2s;
+  &.bs-tooltip-top {
+    bottom: 100%;
+  }
+  &.bs-tooltip-bottom {
+    top: 100%;
+  }
+  .arrow {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
