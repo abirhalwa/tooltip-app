@@ -7,6 +7,7 @@ const routes: Routes = [
     path: '', component: HomeComponent
   },
   {
+    // if the user attempts to use an invalid path
     path: '**', redirectTo: '', pathMatch: 'full'
   }
 ];

@@ -9,7 +9,6 @@ import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 export class TooltipComponent implements OnInit {
   private parentElement;
   public showTooltip = false;
-  public opacityValue = 0;
   public isTop = true;
 
   constructor(private el: ElementRef) {
@@ -29,11 +28,9 @@ export class TooltipComponent implements OnInit {
     //when click inside the tooltip
     if (event.target === this.parentElement) {
       this.showTooltip = true;
-      this.opacityValue = 1;
     }
     else {
       this.showTooltip = false;
-      this.opacityValue = 0;
     }
   }
 
@@ -41,7 +38,6 @@ export class TooltipComponent implements OnInit {
   onKeydown() {
     //close all tooltips when press the ESC key
     this.showTooltip = false;
-    this.opacityValue = 0;
   }
 
   // when scroll
