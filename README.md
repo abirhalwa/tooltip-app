@@ -12,6 +12,7 @@ Xello Coding Challenge for the Front End Engineer role. This project was generat
 
 Create a single page Angular app with simple routing that has one state/view. In it, place two buttons that when clicked, show a tooltip above the button with some text in it.
 When button A is clicked, if button B’s tooltip is open it should close and vice versa - only one tooltip should be visible at a time. Either tooltip should close when clicked anywhere outside of it, but remain open if clicked inside. Either tooltip should close when ESC key is pressed.
+
 __All the project requirments have been met__
 
 ## Project Bonus
