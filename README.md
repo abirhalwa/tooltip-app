@@ -17,8 +17,8 @@ When button A is clicked, if button B’s tooltip is open it should close and vi
 
 ## Project Bonus
 
-1. If you scroll down to an open tooltip it should detect being at the edge of the screen and change position to be below the button +++ ✓
-2. Style using either Bootstrap sass or SCSS BEM ++ ✓
-3. Add at least one accessibility feature + ✓
-4. Design and style the app so that it is responsive + ✓
-5. Use NGRX for state management ++++ X
+1. If you scroll down to an open tooltip it should detect being at the edge of the screen and change position to be below the button +++ ✔️
+2. Style using either Bootstrap sass or SCSS BEM ++ ✔️
+3. Add at least one accessibility feature + ✔️
+4. Design and style the app so that it is responsive + ✔️
+5. Use NGRX for state management ++++ ❌
